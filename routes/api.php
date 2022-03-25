@@ -14,10 +14,12 @@ use Illuminate\Support\Facades\Route;
 | routes are loaded by the RouteServiceProvider within a group which
 | is assigned the "api" middleware group. Enjoy building your API!
 |
-*/
+ */
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::resource('supplier2',ApiController::class);
+Route::resource('supplier2', ApiController::class);
+Route::resource('barang2', Barang2Controller::class);
+Route::resource('user2', User2Controller::class);

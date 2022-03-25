@@ -1,5 +1,5 @@
 <div class="navbar-header">
-     <a class="navbar-brand" href="{{ route('home') }}">Sempiternal Club.</a>
+     <a class="navbar-brand" href="{{ route('home') }}">Chronic Rock.</a>
  </div>
 
  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">

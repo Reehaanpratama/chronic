@@ -44,7 +44,7 @@
 					<ul class="header-links pull-left">
 						<li><a href="#"><i class="fa fa-phone"></i> +62 898 742 8406</a></li>
 						<li><a href="#"><i class="fa fa-envelope-o"></i> rehanre782@gmail.com</a></li>
-						<li><a href="#"><i class="fa fa-map-marker"></i> Jl. Cikutra Bandung</a></li>
+						<li><a href="#"><i class="fa fa-map-marker"></i> Jl. Sawah Kurung</a></li>
 					</ul>
 				</div>
 			</div>
@@ -57,21 +57,22 @@
 					<!-- row -->
 					<div class="row">
 						<!-- LOGO -->
+						<!-- LOGO -->
 						<div class="col-md-3">
-							<div class="header-logo">
-								<a href="#" class="logo">
-								</a>
-							</div>
+						    <div class="header-logo">
+						        <a href="#" class="logo">
+						            <img src="./frontend/img/anyar.png" alt="">
+						        </a>
+						    </div>
 						</div>
+						<!-- /LOGO -->
+
 						<!-- /LOGO -->
 
 						<!-- SEARCH BAR -->
 						<div class="col-md-6">
 							<div class="header-search">
 								<form>
-									<select class="input-select">
-										<option value="0">All Categories</option>
-									</select>
 									<input class="input" placeholder="Search here">
 									<button class="search-btn">Search</button>
 								</form>
@@ -82,26 +83,7 @@
 						<!-- ACCOUNT -->
 						<div class="col-md-3 clearfix">
 							<div class="header-ctn">
-								<!-- Cart -->
-								<div class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-										<i class="fa fa-shopping-cart"></i>
-										<span>Your Cart</span>
-									</a>
-									<div class="cart-dropdown">
-										<div class="cart-list">
-											<div class="product-widget">
-												<div class="product-img">
-													<img src="{{asset('image/barang/')}}" alt="">
-												</div>
-										</div>
-										<div class="cart-btns">
-											<a href="keranjang.index">View Cart</a>
-											<a href="#">Checkout  <i class="fa fa-arrow-circle-right"></i></a>
-										</div>
-									</div>
-								</div>
-								<!-- /Cart -->
+
 
 								<!-- Menu Toogle -->
 								<div class="menu-toggle">
@@ -143,6 +125,17 @@
 		<!-- /SECTION -->
 
 		<!-- SECTION -->
+        <section id="hero" class="d-flex align-items-center">
+
+            <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
+                <h1>Welcome to Chronic Rock</h1>
+                <h2>Original Merchandise Local Band and Keep Support Local</h2>
+                <a href="#product" class="btn-get-started scrollto">Shop Now</a>
+            </div>
+        </section><!-- End Hero -->
+
+        <main id="main">
+
 
 					<!-- /section title -->
 
@@ -164,8 +157,8 @@
 											</div>
 											<div class="product-body">
 												<p class="product-category">T-shirt</p>
-												<h3 class="product-name"><a href="#">{{ $data->nama_barang }} </a></h3>
-												<h4 class="product-price">{{ $data->harga }} </h4>
+												<h3 class="product-name">{{ $data->nama_barang }} </></h3>
+												<h4 class="product-price">Rp. {{ $data->harga }} </h4>
 
 											</div>
 											<div class="add-to-cart">
@@ -189,17 +182,6 @@
 			<!-- /container -->
 		</div>
 		<!-- /SECTION -->
-
-		<!-- HOT DEAL SECTION -->
-		<div id="hot-deal" class="section">
-			<!-- container -->
-			<div class="container">
-				<!-- row -->
-				<!-- /row -->
-			</div>
-			<!-- /container -->
-		</div>
-		<!-- /HOT DEAL SECTION -->
 
 		<!-- SECTION -->
 		<div class="section">
@@ -231,6 +213,7 @@
 			<!-- /container -->
 		</div>
 		<!-- /SECTION -->
+<iframe style="border:0; width: 100%; height: 300px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.6372548345394!2d107.6092493146259!3d-6.933885994990217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e88499c17d07%3A0x6655281ad15580d!2sChronic%20Rock%20Merch!5e0!3m2!1sid!2sid!4v1647398710082!5m2!1sid!2sid" width="600" height="800" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
 		<!-- NEWSLETTER -->
 		<div id="newsletter" class="section">
@@ -241,16 +224,9 @@
 					<div class="col-md-12">
 						<div class="newsletter">
 							<p>CHRONIC ROCK <strong>MERCHANDISE</strong></p>
-
 							<ul class="newsletter-follow">
 								<li>
-									<a href="#"><i class="fa fa-facebook"></i></a>
-								</li>
-								<li>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-								</li>
-								<li>
-									<a href="#"><i class="fa fa-instagram"></i></a>
+									<a href="https://www.instagram.com/chronic_rock/?hl=id"><i class="fa fa-instagram"></i></a>
 								</li>
 							</ul>
 						</div>

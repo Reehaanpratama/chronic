@@ -8,7 +8,7 @@
                 <div class="card-header">
                 </div>
                 <div class="card-body">
-                        Selamat Datang di <strong>Penjualan Pakaian</strong>
+                        Selamat Datang di <strong>Chronic Rock</strong>
                 </div>
             </div>
         </div>

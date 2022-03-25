@@ -3,9 +3,6 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="col-md-12">
-            <a href="{{ url('/') }}" class="btn btn-primary"><i class="fa fa-arrow-left"></i> Kembali</a>
-        </div>
         <div class="col-md-12 mt-2">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -46,6 +43,10 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-13 mt-2">
+                <a href="{{ url('/') }}" class="btn btn-primary float-right"></i> Kembali</a>
+            </div>
+
         </div>
     </div>
 </div>
